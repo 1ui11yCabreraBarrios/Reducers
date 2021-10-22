@@ -1,11 +1,14 @@
 
-import Contador from './Reducers/Contador';
+import Contador from './Components/Contador';
+import ContadorMejorado from './Components/ContadorMejorado';
 
 function App() {
   return (
     <div className="App">
+      <ContadorMejorado />
+      <br />
 
-      <Contador/>
+      <Contador />
     </div>
   );
 }
